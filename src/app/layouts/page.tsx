@@ -5,10 +5,8 @@ import Header from "./Header/page";
 import { useState, useEffect } from 'react'
 
 export default function Layout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+  children
+}: any) {
   const [isClient, setIsClient] = useState(false)
 
   useEffect(() => {
