@@ -1,0 +1,162 @@
+@media only screen and (max-width: 600px) {
+    .mainFooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: var(--secondary);
+        border-start-start-radius: 20px;
+        border-start-end-radius: 20px;
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .mainFooterRegist {
+        border-radius: 16px;
+        margin: 20px;
+        padding: 20px;
+        display: flex;
+        background: var(--primary);
+        flex-direction: column;
+    }
+    
+    .mainContentFooterRegist {
+        border-radius: 16px;
+        margin-top: 10px;
+        padding: 10px;
+        display: flex;
+        background: var(--neutral-0);
+        flex-direction: column;
+    }
+    
+    .inputFooterRegist {
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        border: 1px solid var(--neutral-40);
+    }
+    
+    .menu {
+       display: flex;
+       justify-content: space-between;
+       gap: 45px;
+    }
+    
+    .menu a{
+      list-style-type: none;
+      text-decoration: none;
+      color: var(--primary-80);
+    }
+    
+    .mainSosialMedia {
+        display: flex;
+        justify-content: space-between;
+        gap: 55px;
+        margin-top: 20px;
+    }
+    
+    .lineBreak {
+        border: 1px solid var(--neutral-20);
+        width: 100%;
+    }
+    
+    .mainInfoFooter {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        margin: 30px 0 10px 0;
+    }
+    
+    .mainPolicy {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .mainFooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: var(--secondary);
+        border-start-start-radius: 20px;
+        border-start-end-radius: 20px;
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .mainFooterRegist {
+        border-radius: 16px;
+        margin: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 100px;
+        background: var(--primary);
+    }
+    
+    .mainContentFooterRegist {
+        border-radius: 16px;
+        margin-top: 10px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: var(--neutral-0);
+        width: 707px;
+    }
+    
+    .inputFooterRegist {
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid var(--neutral-40);
+        width: 70%;
+        height: 28px;
+    }
+    
+    .menu {
+       display: flex;
+       justify-content: space-between;
+       gap: 45px;
+    }
+    
+    .menu a{
+      list-style-type: none;
+      text-decoration: none;
+      color: var(--primary-80);
+    }
+    
+    .mainSosialMedia {
+        display: flex;
+        justify-content: space-between;
+        gap: 55px;
+        margin-top: 20px;
+    }
+    
+    .lineBreak {
+        border: 1px solid var(--neutral-20);
+        width: 100%;
+    }
+    
+    .mainInfoFooter {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        margin: 30px 0 10px 0;
+    }
+    
+    .mainPolicy {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px
+    }
+}

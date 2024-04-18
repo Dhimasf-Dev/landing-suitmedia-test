@@ -1,0 +1,109 @@
+@import url('https://fonts.cdnfonts.com/css/svn-gilroy');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'SVN-Gilroy', sans-serif;                                  
+  font-weight: 500;
+
+  /* VARIABLE GLOBAL */
+  --neutral: #00171F;
+  --neutral-0: #FFFFFF;
+  --neutral-10: #FDFDFD;
+  --neutral-20: #CCD1D2;
+  --neutral-40: #99A2A5;
+  --neutral-60: #667479;
+  --neutral-80: #242B33;
+  --neutral-100: #00171F;
+  --primary: #003459;
+  --primary-10: #00A7E7;
+  --primary-80: #00171F;
+  --secondary: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%)
+}
+
+/* FONT SIZE */
+.text-xxs {
+  font-size: 10px;
+}
+
+.text-xs {
+  font-size: 12px;
+}
+
+.text-sm {
+  font-size: 14px;
+}
+
+.text-base {
+  font-size: 16px;
+}
+
+.text-lg {
+  font-size: 20px;
+}
+
+.text-xl {
+  font-size: 24px;
+}
+
+.text-2xl {
+  font-size: 28px;
+}
+
+.text-3xl {
+  font-size: 36px;
+}
+
+.text-4xl {
+  font-size: 46px;
+}
+
+
+/* FONT WEIGHT */
+.font-700 {
+  font-weight: 700;
+}
+
+.font-800 {
+  font-weight: 800;
+}
+
+
+/* LINE HEIGHT */
+.line-height-18 {
+  line-height: 18px;
+}
+
+.line-height-32 {
+  line-height: 32px;
+}
+
+
+/* COLORS */
+.primary {
+  color: var(--primary);
+}
+
+.primary-10 {
+  color: var(--primary-10);
+}
+
+.primary-80 {
+  color: var(--primary-80);
+}
+
+.neutral-10 {
+  color: var(--neutral-10);
+}
+
+.neutral-60 {
+  color: var(--neutral-60);
+}
+
+.neutral-80 {
+  color: var(--neutral-80);
+}
+
+.neutral-100 {
+  color: var(--neutral-100);
+}

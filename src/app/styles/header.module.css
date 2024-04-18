@@ -1,0 +1,49 @@
+@media only screen and (max-width: 600px) {
+    .mainHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background: var(--secondary);
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .mainHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 100px;
+        background: var(--secondary);
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        gap: 45px;
+     }
+     
+     .menu a{
+       list-style-type: none;
+       text-decoration: none;
+       color: var(--primary);
+       font-weight: 700 !important;
+     }
+      
+     .menu a li {
+        font-weight: 700 !important;
+      }
+
+     .inputHeader {
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid var(--neutral-40);
+        width: 280px;
+        height: 28px;
+     }
+
+     .mainSearch {
+        display: flex;
+        gap: 10px;
+     }
+}

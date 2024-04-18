@@ -1,0 +1,26 @@
+.mainButtonOutline {
+   border: 2px solid var(--primary);
+   border-radius: 57px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+
+.mainButtonContain {
+   border: 2px solid var(--primary);
+   background-color: var(--primary);
+   border-radius: 57px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+
+.mainButtonTag {
+   border: 2px solid var(--primary-10);
+   background: var(--primary-10);
+   border-radius: 28px;
+   width: 89px;
+   padding: 2px 10px 2px 10px;
+}

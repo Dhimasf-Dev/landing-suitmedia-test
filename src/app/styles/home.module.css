@@ -1,0 +1,118 @@
+@media only screen and (max-width: 600px) {
+   .mainContent1 {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      gap: 10px;
+      background: var(--secondary);
+      padding: 20px;
+   }
+
+   .content1 {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      flex-direction: column;
+   }
+   
+   .mainButton {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .mainContent2 {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      gap: 10px;
+      padding: 50px 20px 0 20px;
+      background: #FFFFFF;
+   }
+
+   .mainProduct {
+     display: grid;
+     grid-template-columns: repeat(2, minmax(0, 1fr));
+     gap: 10px
+   }
+
+   .mainContent3 {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+      padding: 20px;
+      margin: 30px 20px 0 20px;
+      background: var(--secondary);
+      border-radius: 12px;
+   }
+
+   .mainButton2 {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+   }
+
+   .mainContent4 {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      gap: 10px;
+      padding: 50px 20px 0 20px;
+      background: #FFFFFF;
+   }
+
+   .mainBlog {
+      display: grid;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      gap: 10px
+    }
+ }
+
+ @media only screen and (min-width: 601px) {
+  /* WEB */
+  .mainContent1, .mainContent3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 100px;
+      background: var(--secondary);
+   }
+
+   .content1, .content3 {
+      width: 452px;
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      flex-direction: column;
+   }
+
+   .mainButton, .mainButton2 {
+      width: 350px;
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .mainContent2, .mainContent4 {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 100px;
+   }
+
+   .mainProduct {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 246px));
+      gap: 10px;
+   }
+
+   .mainBlog {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 346px));
+      gap: 10px;
+   }
+
+ }
+
+
