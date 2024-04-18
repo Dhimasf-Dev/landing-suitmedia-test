@@ -1,7 +1,7 @@
 "use client"
 import "../styles/globals.css";
-import Footer from "./Footer/page";
-import Header from "./Header/page";
+import Footer from "./Footer";
+import Header from "./Header";
 import { useState, useEffect } from 'react'
 
 export default function Layout({
